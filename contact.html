@@ -4,6 +4,7 @@
     <title>Batch 33 | Contact</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/form.js"></script>
 </head>
 <!--Navbar-->
     <nav class="bg-nav">
@@ -49,7 +50,7 @@
 <!--Body Content-->
 <body style="background-color: rgb(214, 219, 221); margin: 0;">
     <form style="margin: 50px auto; width: 390px;">
-        <div style="font-size: 20px;">
+        <div type="text" style="font-size: 20px;">
             <label for="in-name" style="display: block;">Name</label>
             <input type="text" id="in-name" style="font-size: 25px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border: 1px solid white; border-radius: 5px; width: 450px;">
         </div>
@@ -80,7 +81,7 @@
         </div>
 
         <div style="margin-top: 20px;">
-            <button class="bg-button" style="cursor: pointer;">submit</button>
+            <button class="bg-button" style="cursor: pointer;" onclick="submitData()" type="button">submit</button>
         </div>
     </from>
 </body>
